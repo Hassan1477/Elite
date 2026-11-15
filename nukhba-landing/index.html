@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>النخبهai — ذكاء يبدع، يوفّر، وينجز</title>
+  <meta name="description" content="منصة سعودية للإبداع والتوفير بالذكاء الاصطناعي. 3 محاولات مجانية، ثم باقات من 50 ر.س/أسبوع." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/nukhba-ai-logo-icon.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="promo-bar">
+    <p>
+      مساحة VIP: ستوري كل 24 ساعة · كود كل 3 أيام · الباقات من 50 ر.س للأسبوع —
+      <a href="#pricing">اشترك الآن</a>
+    </p>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="النخبهai">
+      <img src="assets/nukhba-ai-logo.png" alt="النخبهai" width="160" height="90" />
+    </a>
+    <nav class="nav" aria-label="القائمة الرئيسية">
+      <a href="#paths">مسارك</a>
+      <a href="#trial">التجربة</a>
+      <a href="#pricing">الباقات</a>
+      <a href="#faq">أسئلة</a>
+    </nav>
+    <a class="btn btn-gold btn-sm" href="#trial">ابدأ تجربتك</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-diamond" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <img class="hero-logo reveal" src="assets/nukhba-ai-logo.png" alt="النخبهai" width="320" height="180" />
+        <p class="hero-subbrand reveal">SAYED — صايد</p>
+        <h1 id="hero-title" class="reveal">ذكاء يبدع، يوفّر، وينجز.</h1>
+        <p class="hero-lead reveal">
+          فكرة لمتجرك أو قرار شراء؟ ابدأ من هنا: اكتب، صمّم، قارن، وراجع الكود —
+          مع 3 محاولات مجانية للحساب الجديد قبل اختيار الباقة.
+        </p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-gold" href="#trial">ابدأ تجربتك</a>
+          <a class="btn btn-ghost" href="#paths">اختر مسارك</a>
+        </div>
+        <p class="hero-trust reveal">
+          3 محاولات مجانية · من 50 ر.س/أسبوع · ChatGPT · Claude · Gemini · Grok
+        </p>
+      </div>
+      <a class="scroll-cue" href="#paths" aria-label="انتقل للأسفل">
+        <span></span>
+      </a>
+    </section>
+
+    <section id="paths" class="section paths" aria-labelledby="paths-title">
+      <div class="section-head">
+        <h2 id="paths-title">ما حاجتك الآن؟</h2>
+        <p>اختر مسارًا — تظهر لك الخطوة التالية، ثم تفتح التجربة على المهمة المناسبة.</p>
+      </div>
+      <div class="path-tabs" role="tablist" aria-label="مسارات الحاجة">
+        <button type="button" class="path-tab" role="tab" data-path="create" aria-selected="false">إبداع</button>
+        <button type="button" class="path-tab is-active" role="tab" data-path="save" aria-selected="true">توفير</button>
+        <button type="button" class="path-tab" role="tab" data-path="help" aria-selected="false">مساعدة</button>
+      </div>
+      <div class="path-panel" id="path-panel" data-active="save">
+        <article class="path-card" data-for="create" hidden>
+          <h3>كتابة وتصميم بلا تشتيت</h3>
+          <p>من صفحة فارغة إلى مسودة إعلان أو صورة ترويجية — بدون التنقل بين نماذج متفرقة.</p>
+          <a class="btn btn-gold" href="#trial" data-task="create">اكتب إعلاني</a>
+        </article>
+        <article class="path-card is-visible" data-for="save">
+          <h3>شراء على بيّنة</h3>
+          <p>قارن متاجر السعودية وراجع أكواد الخصم قبل الدفع — قرار أوضح في مكان واحد.</p>
+          <a class="btn btn-gold" href="#trial" data-task="save">قارن الآن</a>
+        </article>
+        <article class="path-card" data-for="help" hidden>
+          <h3>رتّب خطوتك التالية</h3>
+          <p>إذا لم تتضح البداية، رتّب المهمة مع مساعد صايد من فكرة عامة إلى خطوة قابلة للتنفيذ.</p>
+          <a class="btn btn-gold" href="#trial" data-task="help">ابدأ المحادثة</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="trial" class="section trial" aria-labelledby="trial-title">
+      <div class="section-head">
+        <h2 id="trial-title">ثلاث خطوات للتجربة</h2>
+        <p>سجّل، جرّب مهمة واحدة، ثم اختر الباقة إن ناسبتك التجربة.</p>
+      </div>
+      <ol class="trial-steps">
+        <li class="trial-step is-active" data-step="1">
+          <span class="step-num">1</span>
+          <div>
+            <h3>أنشئ حسابك</h3>
+            <p>3 محاولات إجمالية عبر الخدمات للحساب الجديد — لا تتجدد.</p>
+          </div>
+        </li>
+        <li class="trial-step" data-step="2">
+          <span class="step-num">2</span>
+          <div>
+            <h3>اختر مهمة واحدة</h3>
+            <p>إعلان، صورة، مقارنة أسعار، أو البحث عن كود.</p>
+          </div>
+        </li>
+        <li class="trial-step" data-step="3">
+          <span class="step-num">3</span>
+          <div>
+            <h3>اشترك إن ناسبك</h3>
+            <p>باقة الأسبوع أو الشهر أو السنة — وتُفتح مزايا الاشتراك على حسابك.</p>
+          </div>
+        </li>
+      </ol>
+      <div class="trial-actions">
+        <button type="button" class="btn btn-ghost" id="trial-prev" disabled>السابق</button>
+        <button type="button" class="btn btn-gold" id="trial-next">التالي</button>
+        <a class="btn btn-gold" id="trial-cta" href="#pricing" hidden>استعرض الباقات</a>
+      </div>
+    </section>
+
+    <section class="section compare" aria-labelledby="compare-title">
+      <div class="section-head">
+        <h2 id="compare-title">قبل… وبعد النخبهai</h2>
+        <p>فرق واضح بين التشتت والمسار الواحد.</p>
+      </div>
+      <div class="compare-table" role="table">
+        <div class="compare-row" role="row">
+          <span class="compare-label" role="rowheader">الإعلان</span>
+          <span class="compare-before" role="cell">طلب عام → نص فضفاض</span>
+          <span class="compare-after" role="cell">مسودة موجّهة للجمهور وقابلة لاختبار A/B</span>
+        </div>
+        <div class="compare-row" role="row">
+          <span class="compare-label" role="rowheader">الشراء</span>
+          <span class="compare-before" role="cell">سعر من مصدر واحد</span>
+          <span class="compare-after" role="cell">مقارنة متاجر + فرصة كود قبل الدفع</span>
+        </div>
+        <div class="compare-row" role="row">
+          <span class="compare-label" role="rowheader">البداية</span>
+          <span class="compare-before" role="cell">أدوات ومواقع متفرقة</span>
+          <span class="compare-after" role="cell">مسارات واضحة + مساعد صايد</span>
+        </div>
+        <div class="compare-row" role="row">
+          <span class="compare-label" role="rowheader">الظهور</span>
+          <span class="compare-before" role="cell">العرض يبقى خاصًا</span>
+          <span class="compare-after" role="cell">ستوري VIP ومساحة أكواد للمشتركين</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing" aria-labelledby="pricing-title">
+      <div class="section-head">
+        <h2 id="pricing-title">باقات واضحة. أفضل قيمة ظاهرة.</h2>
+        <p>التجربة: 3 محاولات إجمالية للحساب الجديد (لا تتجدد).</p>
+      </div>
+      <div class="billing-toggle" role="tablist" aria-label="دورة الفوترة">
+        <button type="button" class="bill-opt" data-bill="weekly" aria-selected="false">أسبوعي</button>
+        <button type="button" class="bill-opt" data-bill="monthly" aria-selected="false">شهري</button>
+        <button type="button" class="bill-opt is-active" data-bill="yearly" aria-selected="true">سنوي أفضل قيمة</button>
+      </div>
+      <div class="pricing-layout">
+        <aside class="pricing-side">
+          <h3>مقارنة سريعة</h3>
+          <ul class="side-list">
+            <li data-bill-row="weekly"><span>الأسبوع</span><strong>50 ر.س</strong></li>
+            <li data-bill-row="monthly"><span>الشهر</span><strong>90 ر.س</strong></li>
+            <li data-bill-row="yearly" class="is-spotlight">
+              <span>السنة</span>
+              <strong>700 ر.س <em class="save-tag">توفّر 380</em></strong>
+            </li>
+          </ul>
+          <p class="side-note">الاشتراك مقابل وقت أوفر على المحتوى وقرار شراء أوضح — لا مقابل ذكاء عام بلا نتيجة.</p>
+        </aside>
+        <article class="pricing-spotlight" id="pricing-spotlight">
+          <span class="badge" id="plan-badge">أفضل قيمة</span>
+          <h3 id="plan-name">باقة السنة</h3>
+          <p class="plan-price"><span id="plan-price">700</span> ر.س</p>
+          <p class="plan-for" id="plan-for">للاستخدام المنتظم — توفّر 380 ر.س مقابل 12× الشهر</p>
+          <ul class="plan-features" id="plan-features">
+            <li>نفس الحصص طوال السنة</li>
+            <li>30 رسالة و5 صور يوميًا</li>
+            <li>مقارنات بلا حد · خدمات وأكواد</li>
+            <li>VIP ستوري + كود كل 3 أيام</li>
+          </ul>
+          <a class="btn btn-gold btn-block" id="plan-cta" href="https://sayaadai.com/" rel="noopener">اختر باقة السنة</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq" aria-labelledby="faq-title">
+      <div class="section-head">
+        <h2 id="faq-title">أسئلة شائعة</h2>
+        <p>إجابات هادئة عن التجربة والباقات والتفعيل.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>هل يمكنني التجربة قبل الاشتراك؟</summary>
+          <p>نعم. الحساب الجديد يحصل على 3 محاولات إجمالية بين الخدمات؛ بعدها تختار الباقة إن ناسبتك التجربة.</p>
+        </details>
+        <details class="faq-item">
+          <summary>ماذا يضيف الاشتراك؟</summary>
+          <p>مقارنات بلا حد، 30 رسالة كل 24 ساعة، حصص صور/فيديو حسب الباقة، أكواد الخصم، ستوري VIP، وكود مشترك كل 3 أيام.</p>
+        </details>
+        <details class="faq-item">
+          <summary>كيف أفعّل الاشتراك؟</summary>
+          <p>سجّل الدخول → اختر الباقة → أكمل الدفع → تُفتح المزايا على حسابك.</p>
+        </details>
+        <details class="faq-item">
+          <summary>هل أكواد الخصم مجانية؟</summary>
+          <p>تصفّح الأكواد العامة متاح ضمن تجربة المنصة؛ مزايا الخزنة وVIP مرتبطة بالاشتراك. راجع شروط العرض داخل المتجر قبل الدفع.</p>
+        </details>
+        <details class="faq-item">
+          <summary>هل تستحق الباقة السنوية؟</summary>
+          <p>للاستخدام الشهري المنتظم: 700 ر.س مقابل 12×90 ر.س يعني توفيرًا ظاهرًا بـ 380 ر.س.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section final-cta" aria-labelledby="final-title">
+      <h2 id="final-title">فكرتك التالية تستحق بداية اليوم</h2>
+      <p>3 محاولات، ثم باقتك — منصة سعودية للإبداع والتوفير بالذكاء الاصطناعي.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="#trial">ابدأ أول مهمة</a>
+        <a class="btn btn-ghost" href="#pricing">استعرض الباقات</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/nukhba-ai-logo.png" alt="النخبهai" width="120" height="68" />
+      <p>SAYED — صايد · sayaadai.com</p>
+    </div>
+    <p class="footer-legal">© النخبهai — منصة سعودية للإبداع والتوفير بالذكاء الاصطناعي.</p>
+  </footer>
+
+  <div class="assistant" id="assistant">
+    <button type="button" class="assistant-fab" id="assistant-toggle" aria-expanded="false" aria-controls="assistant-panel">
+      <img src="assets/nukhba-ai-logo-icon.png" alt="" width="28" height="28" />
+      <span>جرّب المساعد</span>
+    </button>
+    <div class="assistant-panel" id="assistant-panel" hidden>
+      <header>
+        <strong>مساعد صايد</strong>
+        <button type="button" class="assistant-close" id="assistant-close" aria-label="إغلاق">×</button>
+      </header>
+      <div class="assistant-msgs" id="assistant-msgs">
+        <div class="msg bot">مرحبًا — أنا مساعد صايد. وش ودك تجرّب؟</div>
+      </div>
+      <div class="assistant-quick">
+        <button type="button" data-prompt="أبي إعلان">أبي إعلان</button>
+        <button type="button" data-prompt="أبي أوفّر">أبي أوفّر</button>
+        <button type="button" data-prompt="ورّني البداية">ورّني البداية</button>
+      </div>
+      <form class="assistant-form" id="assistant-form">
+        <input type="text" id="assistant-input" placeholder="اكتب سؤالك…" autocomplete="off" />
+        <button type="submit" class="btn btn-gold btn-sm">أرسل</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
